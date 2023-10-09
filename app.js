@@ -44,6 +44,13 @@ var cars = {
             price: 5000,
             colors: ["red", "green", "black"],
             condition: "new"
+        },
+        Prius: {
+            name: "honda civic",
+            year: 2023,
+            price: 5000,
+            colors: ["red", "green", "black"],
+            condition: "new"
         }
     }
 
