@@ -169,10 +169,12 @@ for (var key in cars) {
 }
 
 function onChangeCompany() {
-    brand.innerHTML = "";
+    model.innerHTML = "";
     for (var key in cars[company.value]) {
         model.innerHTML += `
-    <option value="${key}">${key.toUpperCase()}</options>
-    `
+            <option value="${key}">${key.toUpperCase()}</options>
+        `;
+
     }
 }
+

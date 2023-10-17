@@ -177,12 +177,34 @@ li a {
 
 .footer{
     display: flex;
-    justify-content: space-around;
     padding-top: 80px;
+    justify-content: space-around;
+    background-color: #0D0405;
+    color: #fff;
+    margin-top: 55px;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+
+.footer input{
+    outline: none;
+    width: 220px;
+    height: 30px;
 }
 
 .footer ul{
     list-style: none;
+}
+
+.footer button{
+    width: 120px;
+    height: 30px;
+    background-color: #DD9933;
+    color: #fff;
+    font-size: 14px;
+    border: 1px solid #DD9933;
+    cursor: pointer;
+    font-weight: 600;
 }
 
 
