@@ -1,18 +1,48 @@
 var cars = {
-    honda: {
-        civic: {
-            name: "honda civic",
-            year: 2023,
+    Bmw: {
+        M4: {
+            name: "Mercedes SL55 AMG",
+            year: 2003,
             price: 5000,
+            make: "Mercedes Benz",
+            colors: ["red", "green", "black"],
+            Transmission: "Transmission",
+            Mileage: "158,455",
+            FashionModel: "SL55 AMG"
+        },
+    },
+    Mercedes: {
+        a_class: {
+            name: "Mercedes-Benz",
+            year: 2023,
+            price: 17000,
             colors: ["red", "green", "black"],
             condition: "new",
             door: 4,
             wheels: 4,
         },
-        Accord: {
-            name: "Honda Inspire",
-            year: 2022,
-            price: 6500,
+        c_class: {
+            name: "Mercedes-Benz",
+            year: 2023,
+            price: 17000,
+            colors: ["red", "green", "black"],
+            condition: "new",
+            door: 4,
+            wheels: 4,
+        },
+        e_class: {
+            name: "Mercedes-Benz",
+            year: 2023,
+            price: 17000,
+            colors: ["red", "green", "black"],
+            condition: "new",
+            door: 4,
+            wheels: 4,
+        },
+        g_class: {
+            name: "Mercedes-Benz",
+            year: 2023,
+            price: 14000,
             colors: ["red", "green", "black"],
             condition: "new",
             door: 4,
@@ -54,44 +84,6 @@ var cars = {
             price: 5000,
             colors: ["red", "green", "black"],
             condition: "new"
-        }
-    },
-    Mercedes: {
-        a_class: {
-            name: "Mercedes-Benz",
-            year: 2023,
-            price: 17000,
-            colors: ["red", "green", "black"],
-            condition: "new",
-            door: 4,
-            wheels: 4,
-        },
-        c_class: {
-            name: "Mercedes-Benz",
-            year: 2023,
-            price: 17000,
-            colors: ["red", "green", "black"],
-            condition: "new",
-            door: 4,
-            wheels: 4,
-        },
-        e_class: {
-            name: "Mercedes-Benz",
-            year: 2023,
-            price: 17000,
-            colors: ["red", "green", "black"],
-            condition: "new",
-            door: 4,
-            wheels: 4,
-        },
-        g_class: {
-            name: "Mercedes-Benz",
-            year: 2023,
-            price: 14000,
-            colors: ["red", "green", "black"],
-            condition: "new",
-            door: 4,
-            wheels: 4,
         }
     },
     Toyota_Hilux: {

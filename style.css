@@ -87,8 +87,33 @@ li a {
     margin-top: -75px;
 }
 
+.search{
+    height: 280px;
+    width: 1280px;
+    background-image: url("images/fuel-speedometer-car.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.inventory{
+    width: 80%;
+    background-color: #fff;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
 
+.inventory select{
+    height: 35px;
+    width: 155px;
+    padding: 5px 10px;
+}
 
 
 
