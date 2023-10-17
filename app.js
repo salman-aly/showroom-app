@@ -5,8 +5,18 @@ var cars = {
             year: 2023,
             price: 5000,
             colors: ["red", "green", "black"],
-            condition: "new"
-
+            condition: "new",
+            door: 4,
+            wheels: 4,
+        },
+        Accord: {
+            name: "Honda Inspire",
+            year: 2022,
+            price: 6500,
+            colors: ["red", "green", "black"],
+            condition: "new",
+            door: 4,
+            wheels: 4,
         }
     },
     toyota: {
@@ -31,27 +41,126 @@ var cars = {
             colors: ["red", "green", "black"],
             condition: "new"
         },
-        Prius: {
+        Supra: {
             name: "honda civic",
             year: 2023,
             price: 5000,
             colors: ["red", "green", "black"],
             condition: "new"
         },
-        Prius: {
-            name: "honda civic",
-            year: 2023,
-            price: 5000,
-            colors: ["red", "green", "black"],
-            condition: "new"
-        },
-        Prius: {
+        Rav4: {
             name: "honda civic",
             year: 2023,
             price: 5000,
             colors: ["red", "green", "black"],
             condition: "new"
         }
+    },
+    Mercedes: {
+        a_class: {
+            name: "Mercedes-Benz",
+            year: 2023,
+            price: 17000,
+            colors: ["red", "green", "black"],
+            condition: "new",
+            door: 4,
+            wheels: 4,
+        },
+        c_class: {
+            name: "Mercedes-Benz",
+            year: 2023,
+            price: 17000,
+            colors: ["red", "green", "black"],
+            condition: "new",
+            door: 4,
+            wheels: 4,
+        },
+        e_class: {
+            name: "Mercedes-Benz",
+            year: 2023,
+            price: 17000,
+            colors: ["red", "green", "black"],
+            condition: "new",
+            door: 4,
+            wheels: 4,
+        },
+        g_class: {
+            name: "Mercedes-Benz",
+            year: 2023,
+            price: 14000,
+            colors: ["red", "green", "black"],
+            condition: "new",
+            door: 4,
+            wheels: 4,
+        }
+    },
+    Toyota_Hilux: {
+        Toyota_Pickup: {
+            name: "Toyota_Hilux",
+            year: 1968,
+            price: 17000,
+            colors: ["red", "green", "black"],
+            condition: "new",
+            door: 4,
+            wheels: 4,
+        }
+    },
+    Sequoia: {
+        Toyota_Sequoia: {
+            name: "Sequoia",
+            year: 2022,
+            price: 13000,
+            colors: ["red", "green", "black"],
+            condition: "new",
+            door: 4,
+            wheels: 4,
+        },
+        sequoia_platinum: {
+            name: "Sequoia",
+            year: 2023,
+            price: 15000,
+            colors: ["red", "green", "black"],
+            condition: "new",
+            door: 4,
+            wheels: 4,
+        }
+    },
+    Land_Cruiser: {
+        Toyota_FJ_Cruiser: {
+            name: "Land_Cruiser",
+            year: 2019,
+            price: 14000,
+            colors: ["red", "green", "black"],
+            condition: "new",
+            door: 4,
+            wheels: 4,
+        },
+        Toyota_Land_Cruiser_150: {
+            name: "Land_Cruiser",
+            year: 2022,
+            price: 30000,
+            colors: ["red", "green", "black"],
+            condition: "new",
+            door: 4,
+            wheels: 4,
+        },
+        Land_Rover_Discovery: {
+            name: "Land_Cruiser",
+            year: 2022,
+            price: 30000,
+            colors: ["red", "green", "black"],
+            condition: "new",
+            door: 4,
+            wheels: 4,
+        },
+        Toyota_Land_Cruiser_Prado: {
+            name: "Land_Cruiser",
+            year: 2022,
+            price: 30000,
+            colors: ["red", "green", "black"],
+            condition: "new",
+            door: 4,
+            wheels: 4,
+        }
     }
-
 }

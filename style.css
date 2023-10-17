@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: #002D2D;
+    align-items: center;
+    padding: 0px 35px;
+}
+
+.logo>img {
+    height: 80px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 45px;
+    list-style: none;
+}
+
+li a {
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+.slider{
+    width: 1280px;
+}
+.slider>img {
+    width: 100%;
+}
+.car-collections{
+    display: flex;
+    justify-content: space-evenly;
+}
+.collection{
+    text-align: center;
+    padding-top: 80px;
+}
+.collection h5{
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+.collection h3{
+    color: #DD9933;
+    font-size: 50px;
+    padding-bottom: 60px;
+}
+
+.car-collect{
+    width: 280px;
+    height: 280px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.car-collect:hover{
+    background: url("images/bmw2.webp");
+}
+.car-collect h4{
+    font-size: 18px;
+}
+
+.car-collect > img{
+width: 100%;
+height: 170px;
+}
