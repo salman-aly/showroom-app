@@ -55,30 +55,13 @@
       </div>
       <div class="search">
         <div class="inventory">
-          <select name="" id="company">
-            <option value="">Select Model</option>
-            <option value="">Bmw</option>
-            <option value="">Mercedes</option>
-            <option value="">Lamborghini</option>
-            <option value="">Nissan GTR</option>
-            <option value="">Porsche</option>
+          <select onchange="onChangeCompany()" id="company">
+            <option value="">Select Make</option>
           </select>
 
           <select name="" id="model">
-            <option value="">Select Make</option>
-            <option value="">Mercedes SL55 AMG</option>
-            <option value="">Lamborghini Huracan</option>
-            <option value="">BMW M4 CS</option>
-            <option value="">Porsche 911 S Targa</option>
+            <option value="">Select model</option>
           </select>
-
-          <select name="" id="year">
-            <option value="">Select Year</option>
-            <option value="">2022</option>
-            <option value="">2023</option>
-            <option value="">2021</option>
-          </select>
-
           <button>Search inventory</button>
         </div>
       </div>

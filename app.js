@@ -156,3 +156,23 @@ var cars = {
         }
     }
 }
+
+
+
+var company = document.getElementById("company")
+var model = document.getElementById("model")
+
+for (var key in cars) {
+    company.innerHTML += `
+    <option value="${key}">${key.toUpperCase()}</options>
+    `
+}
+
+function onChangeCompany() {
+    brand.innerHTML = "";
+    for (var key in cars[company.value]) {
+        model.innerHTML += `
+    <option value="${key}">${key.toUpperCase()}</options>
+    `
+    }
+}

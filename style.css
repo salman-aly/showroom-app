@@ -73,6 +73,7 @@ li a {
 
 .car-collect h4 {
     font-size: 18px;
+    color: #002D2D;
 }
 
 .car-collect>img {
@@ -106,13 +107,33 @@ li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: space-around;
+    gap: 110px;
 }
 
 .inventory select{
     height: 35px;
-    width: 155px;
+    width: 175px;
     padding: 5px 10px;
+    outline: none;
+}
+
+.inventory button{
+    width: 140px;
+    height: 35px;
+    background-color: #DD9933;
+    color: #fff;
+    font-size: 14px;
+    border: 1px solid #DD9933;
+    cursor: pointer;
+    font-weight: 600;
+}
+.inventory button:hover{
+    width: 140px;
+    height: 35px;
+    background-color: #fff;
+    color: #DD9933;
+    font-size: 14px;
+    border: 1px solid #DD9933;
 }
 
 
