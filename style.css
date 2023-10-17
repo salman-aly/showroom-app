@@ -83,12 +83,12 @@ li a {
     padding-bottom: 10px;
 }
 
-.dots >img{
+.dots>img {
     height: 60px;
     margin-top: -75px;
 }
 
-.search{
+.search {
     height: 280px;
     width: 1280px;
     background-image: url("images/fuel-speedometer-car.jpg");
@@ -100,7 +100,7 @@ li a {
     justify-content: center;
 }
 
-.inventory{
+.inventory {
     width: 80%;
     background-color: #fff;
     height: 130px;
@@ -110,14 +110,14 @@ li a {
     gap: 110px;
 }
 
-.inventory select{
+.inventory select {
     height: 35px;
     width: 175px;
     padding: 5px 10px;
     outline: none;
 }
 
-.inventory button{
+.inventory button {
     width: 140px;
     height: 35px;
     background-color: #DD9933;
@@ -127,7 +127,8 @@ li a {
     cursor: pointer;
     font-weight: 600;
 }
-.inventory button:hover{
+
+.inventory button:hover {
     width: 140px;
     height: 35px;
     background-color: #fff;
@@ -136,8 +137,43 @@ li a {
     border: 1px solid #DD9933;
 }
 
+.about {
+    text-align: center;
+    padding: 80px 0px;
+    width: 900px;
+    margin: 0 auto;
+}
 
+.about h3 {
+    font-size: 32px;
+    color: #DD9933;
+    padding-bottom: 35px;
+}
 
+.about p {
+    color: #002D2D;
+    font-weight: 400;
+    word-spacing: 5px;
+}
+
+.social-main{
+    font-size: 14px;
+    color: #002D2D;
+    font-weight: 300;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 15px;
+}
+
+.social>img{
+    height: 35px;
+}
 
 
 
