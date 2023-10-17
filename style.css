@@ -175,7 +175,15 @@ li a {
     height: 35px;
 }
 
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+}
 
+.footer ul{
+    list-style: none;
+}
 
 
 
