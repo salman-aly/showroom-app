@@ -32,46 +32,75 @@ li a {
     color: #fff;
     text-decoration: none;
 }
-.slider{
+
+.slider {
     width: 1280px;
 }
+
 .slider>img {
     width: 100%;
 }
-.car-collections{
+
+.car-collections {
     display: flex;
     justify-content: space-evenly;
+    text-transform: uppercase;
 }
-.collection{
+
+.collection {
     text-align: center;
     padding-top: 80px;
 }
-.collection h5{
+
+.collection h5 {
     font-size: 18px;
     font-weight: 400;
-    
+
 }
-.collection h3{
+
+.collection h3 {
     color: #DD9933;
     font-size: 50px;
     padding-bottom: 60px;
 }
 
-.car-collect{
+.car-collect {
     width: 280px;
     height: 280px;
     text-align: center;
     font-size: 28px;
 }
 
-.car-collect:hover{
-    background: url("images/bmw2.webp");
-}
-.car-collect h4{
+.car-collect h4 {
     font-size: 18px;
 }
 
-.car-collect > img{
-width: 100%;
-height: 170px;
+.car-collect>img {
+    width: 100%;
+    height: 170px;
+    transition: 0.6s ease-in-out;
+    padding-bottom: 10px;
+}
+
+.dots >img{
+    height: 60px;
+    margin-top: -75px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* animation */
+
+.grow:hover {
+    transform: scale(1.1);
+    transition: 0.6s ease-in-out;
 }
