@@ -245,15 +245,16 @@ function onChangeCompany() {
   for (var key in cars[company.value]) {
     model.innerHTML += `
             <option value="${key}">${key.toUpperCase()}</options>
-        `;
+     `;
 
   }
 }
 
 
 
+
 function filtersCars() {
-  var carData = cars [company.value][model.value].type
+  var carData = cars[company.value][model.value].type
   allCars.innerHTML = `
   <div class="row">
     <div class="col">
