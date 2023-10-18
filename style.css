@@ -156,11 +156,25 @@ li a {
     word-spacing: 5px;
 }
 
-.social-main{
+.social-main {
     font-size: 14px;
     color: #002D2D;
     font-weight: 300;
     text-align: center;
+}
+
+.inventorys {
+    /* display: flex; */
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 500px;
+}
+
+.row {
+    width: 250px;
+    border: 1px solid #002D2D;
+    padding: 10px;
+    margin-left: 20px;
 }
 
 .social {
@@ -171,11 +185,11 @@ li a {
     padding-top: 15px;
 }
 
-.social>img{
+.social>img {
     height: 35px;
 }
 
-.footer{
+.footer {
     display: flex;
     padding-top: 80px;
     justify-content: space-around;
@@ -186,17 +200,17 @@ li a {
     text-transform: capitalize;
 }
 
-.footer input{
+.footer input {
     outline: none;
     width: 220px;
     height: 30px;
 }
 
-.footer ul{
+.footer ul {
     list-style: none;
 }
 
-.footer button{
+.footer button {
     width: 120px;
     height: 30px;
     background-color: #DD9933;

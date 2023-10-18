@@ -1,191 +1,252 @@
 var cars = {
-    Bmw: {
-        M4: {
-            name: "Mercedes SL55 AMG",
-            year: 2003,
-            price: 5000,
-            make: "Mercedes Benz",
-            colors: ["red", "green", "black"],
-            Transmission: "Transmission",
-            Mileage: "158,455",
-            FashionModel: "SL55 AMG"
-        },
+  hyundai: {
+    Sonata: {
+      image: "img/cars/hyundai/Sonata.jpg",
+      name: "Sonata",
+      engine: "Smart Stream 2.5 MPi",
+      door: "4 doors",
+      FuelTank: "60 (Ltr.)",
+      MaxPower: "132 (180)/6200",
+      color: ["Black", "White", "Red"],
+      price: "112 Lakh",
     },
-    Mercedes: {
-        a_class: {
-            name: "Mercedes benz",
-            year: 2003,
-            price: 5000,
-            make: "Mercedes Benz",
-            colors: ["red", "green", "black"],
-            Transmission: "Transmission",
-            Mileage: "158,455",
-            FashionModel: "SL55 AMG"
-        },
-        c_class: {
-            name: "Mercedes benz",
-            year: 2003,
-            price: 5000,
-            make: "Mercedes Benz",
-            colors: ["red", "green", "black"],
-            Transmission: "Transmission",
-            Mileage: "158,455",
-        },
-        e_class: {
-            name: "Mercedes benz",
-            year: 2003,
-            price: 5000,
-            make: "Mercedes Benz",
-            colors: ["red", "green", "black"],
-            Transmission: "Transmission",
-            Mileage: "158,455",
-        },
-        g_class: {
-            name: "Mercedes benz",
-            year: 2003,
-            price: 5000,
-            make: "Mercedes Benz",
-            colors: ["red", "green", "black"],
-            Transmission: "Transmission",
-            Mileage: "158,455",
-        }
+    Tucson: {
+      image: "img/cars/hyundai/tucson.webp",
+      name: "Tucson",
+      engine: "Smart Stream 2.5 MPi",
+      door: "4 doors",
+      FuelTank: "60 (Ltr.)",
+      MaxPower: "132 (180)/6200",
+      color: ["Black", "White", "Red"],
+      price: "112 Lakh",
     },
-    toyota: {
-        fortuner: {
-            name: "honda civic",
-            year: 2003,
-            price: 5000,
-            make: "Mercedes Benz",
-            colors: ["red", "green", "black"],
-            Transmission: "Transmission",
-            Mileage: "158,455",
-        },
-        Yaris: {
-            name: "honda civic",
-            year: 2003,
-            price: 5000,
-            make: "Mercedes Benz",
-            colors: ["red", "green", "black"],
-            Transmission: "Transmission",
-            Mileage: "158,455",
-        },
-        Camry: {
-            name: "honda civic",
-            year: 2003,
-            price: 5000,
-            make: "Mercedes Benz",
-            colors: ["red", "green", "black"],
-            Transmission: "Transmission",
-            Mileage: "158,455",
-        },
-        Supra: {
-            name: "honda civic",
-            year: 2003,
-            price: 5000,
-            make: "Mercedes Benz",
-            colors: ["red", "green", "black"],
-            Transmission: "Transmission",
-            Mileage: "158,455",
-        },
-        Rav4: {
-            name: "honda civic",
-            year: 2003,
-            price: 5000,
-            make: "Mercedes Benz",
-            colors: ["red", "green", "black"],
-            Transmission: "Transmission",
-            Mileage: "158,455",
-        }
+    Accent: {
+      image: "img/cars/hyundai/Accent.avif",
+      name: "Accent",
+      engine: "Smart Stream 2.5 MPi",
+      door: "4 doors",
+      FuelTank: "60 (Ltr.)",
+      MaxPower: "132 (180)/6200",
+      color: ["Black", "White", "Red"],
+      price: "112 Lakh",
     },
-    Toyota_Hilux: {
-        Toyota_Pickup: {
-            name: "Toyota_Hilux",
-            year: 2003,
-            price: 5000,
-            make: "Mercedes Benz",
-            colors: ["red", "green", "black"],
-            Transmission: "Transmission",
-            Mileage: "158,455",
-        }
+    SantaFe: {
+      image: "img/cars/hyundai/SantaFe.png",
+      name: "SantaFe",
+      engine: "Smart Stream 2.5 MPi",
+      door: "4 doors",
+      FuelTank: "60 (Ltr.)",
+      MaxPower: "132 (180)/6200",
+      color: ["Black", "White", "Red"],
+      price: "112 Lakh",
     },
-    Sequoia: {
-        Toyota_Sequoia: {
-            name: "Sequoia",
-            year: 2003,
-            price: 5000,
-            make: "Mercedes Benz",
-            colors: ["red", "green", "black"],
-            Transmission: "Transmission",
-            Mileage: "158,455",
-        },
-        sequoia_platinum: {
-            name: "Toyota_Hilux",
-            year: 2003,
-            price: 5000,
-            make: "Mercedes Benz",
-            colors: ["red", "green", "black"],
-            Transmission: "Transmission",
-            Mileage: "158,455",
-        }
+  },
+  toyota: {
+    Camry: {
+      image: "img/cars/toyota/Camry.jpg",
+      name: "Camry",
+      engine: "Smart Stream 2.5 MPi",
+      door: "4 doors",
+      FuelTank: "60 (Ltr.)",
+      MaxPower: "132 (180)/6200",
+      color: ["Black", "White", "Red"],
+      price: "112 Lakh",
     },
-    Land_Cruiser: {
-        Toyota_FJ_Cruiser: {
-            name: "Land_Cruiser",
-            year: 2003,
-            price: 5000,
-            make: "Mercedes Benz",
-            colors: ["red", "green", "black"],
-            Transmission: "Transmission",
-            Mileage: "158,455",
-        },
-        Toyota_Land_Cruiser_150: {
-            name: "Land_Cruiser",
-            year: 2003,
-            price: 5000,
-            make: "Mercedes Benz",
-            colors: ["red", "green", "black"],
-            Transmission: "Transmission",
-            Mileage: "158,455",
-        },
-        Land_Rover_Discovery: {
-            name: "Land_Cruiser",
-            year: 2003,
-            price: 5000,
-            make: "Mercedes Benz",
-            colors: ["red", "green", "black"],
-            Transmission: "Transmission",
-            Mileage: "158,455",
-        },
-        Toyota_Land_Cruiser_Prado: {
-            name: "Land_Cruiser",
-            year: 2003,
-            price: 5000,
-            make: "Mercedes Benz",
-            colors: ["red", "green", "black"],
-            Transmission: "Transmission",
-            Mileage: "158,455",
-        }
-    }
-}
+    Corolla: {
+      image: "img/cars/toyota/Corolla.png",
+      name: "Corolla",
+      engine: "Smart Stream 2.5 MPi",
+      door: "4 doors",
+      FuelTank: "60 (Ltr.)",
+      MaxPower: "132 (180)/6200",
+      color: ["Black", "White", "Red"],
+      price: "112 Lakh",
+    },
 
+    Prius: {
+      image: "img/cars/toyota/Prius.webp",
+      name: "Prius",
+      engine: "Smart Stream 2.5 MPi",
+      door: "4 doors",
+      FuelTank: "60 (Ltr.)",
+      MaxPower: "132 (180)/6200",
+      color: ["Black", "White", "Red"],
+      price: "112 Lakh",
+    },
+    Fortuner: {
+      image: "img/cars/toyota/Fortuner.png",
+      name: "Fortuner",
+      engine: "Smart Stream 2.5 MPi",
+      door: "4 doors",
+      FuelTank: "60 (Ltr.)",
+      MaxPower: "132 (180)/6200",
+      color: ["Black", "White", "Red"],
+      price: "112 Lakh",
+    },
+  },
+  honda: {
+    Civic: {
+      image: "img/cars/honda/Civic.jpg",
+      name: "Civic",
+      engine: "Smart Stream 2.5 MPi",
+      door: "4 doors",
+      FuelTank: "60 (Ltr.)",
+      MaxPower: "132 (180)/6200",
+      color: ["Black", "White", "Red"],
+      price: "112 Lakh",
+    },
+    City: {
+      image: "img/cars/honda/city.jpg",
+      name: "City",
+      engine: "Smart Stream 2.5 MPi",
+      door: "4 doors",
+      FuelTank: "60 (Ltr.)",
+      MaxPower: "132 (180)/6200",
+      color: ["Black", "White", "Red"],
+      price: "112 Lakh",
+    },
+    BRV: {
+      image: "img/cars/honda/br-v.webp",
+      name: "BR-V",
+      engine: "Smart Stream 2.5 MPi",
+      door: "4 doors",
+      FuelTank: "60 (Ltr.)",
+      MaxPower: "132 (180)/6200",
+      color: ["Black", "White", "Red"],
+      price: "112 Lakh",
+    },
+    Hybrid: {
+      image: "img/cars/honda/Hybrid.webp",
+      name: "CR-V Hybrid",
+      engine: "Smart Stream 2.5 MPi",
+      door: "4 doors",
+      FuelTank: "60 (Ltr.)",
+      MaxPower: "132 (180)/6200",
+      color: ["Black", "White", "Red"],
+      price: "112 Lakh",
+    },
+  },
+  suzuki: {
+    Swift: {
+      image: "img/cars/suzuki/swift.webp",
+      name: "Swift",
+      engine: "Smart Stream 2.5 MPi",
+      door: "4 doors",
+      FuelTank: "60 (Ltr.)",
+      MaxPower: "132 (180)/6200",
+      color: ["Black", "White", "Red"],
+      price: "112 Lakh",
+    },
+    Alto: {
+      image: "img/cars/suzuki/Alto.jpg",
+      name: "Alto",
+      engine: "Smart Stream 2.5 MPi",
+      door: "4 doors",
+      FuelTank: "60 (Ltr.)",
+      MaxPower: "132 (180)/6200",
+      color: ["Black", "White", "Red"],
+      price: "112 Lakh",
+    },
+    Mehran: {
+      image: "img/cars/suzuki/Mehran.jpg",
+      name: "Mehran",
+      engine: "Smart Stream 2.5 MPi",
+      door: "4 doors",
+      FuelTank: "60 (Ltr.)",
+      MaxPower: "132 (180)/6200",
+      color: ["Black", "White", "Red"],
+      price: "112 Lakh",
+    },
+    Carry: {
+      image: "img/cars/suzuki/Carry.jpg",
+      name: "Carry",
+      engine: "Smart Stream 2.5 MPi",
+      door: "4 doors",
+      FuelTank: "60 (Ltr.)",
+      MaxPower: "132 (180)/6200",
+      color: ["Black", "White", "Red"],
+      price: "112 Lakh",
+    },
+  },
+  kia: {
+    Sportage: {
+      image: "img/cars/kia/Sportage.png",
+      name: "Sportage",
+      engine: "Smart Stream 2.5 MPi",
+      door: "4 doors",
+      FuelTank: "60 (Ltr.)",
+      MaxPower: "132 (180)/6200",
+      color: ["Black", "White", "Red"],
+      price: "112 Lakh",
+    },
+    Sorento: {
+      image: "img/cars/kia/Sorento.jpg",
+      name: "Sorento",
+      engine: "Smart Stream 2.5 MPi",
+      door: "4 doors",
+      FuelTank: "60 (Ltr.)",
+      MaxPower: "132 (180)/6200",
+      color: ["Black", "White", "Red"],
+      price: "112 Lakh",
+    },
+    Rio: {
+      image: "img/cars/kia/Rio.jpg",
+      name: "Rio",
+      engine: "Smart Stream 2.5 MPi",
+      door: "4 doors",
+      FuelTank: "60 (Ltr.)",
+      MaxPower: "132 (180)/6200",
+      color: ["Black", "White", "Red"],
+      price: "112 Lakh",
+    },
+    Stinger: {
+      image: "img/cars/kia/Stinger.webp",
+      name: "Stinger",
+      engine: "Smart Stream 2.5 MPi",
+      door: "4 doors",
+      FuelTank: "60 (Ltr.)",
+      MaxPower: "132 (180)/6200",
+      color: ["Black", "White", "Red"],
+      price: "112 Lakh",
+    },
+  },
+};
 
 
 var company = document.getElementById("company")
 var model = document.getElementById("model")
+var allCars = document.getElementById("allCars")
 
 for (var key in cars) {
-    company.innerHTML += `
-     <option value="${key}">${key.toUpperCase()}</options>
-    `
+  company.innerHTML += `
+    <option value="${key}">${key.toUpperCase()}</option>
+  `;
+
+  for (var key1 in cars[key]) {
+    for (var key2 in cars[key][key1]) {
+      allCars.innerHTML += `
+        <div class="row">
+          <div class="col">
+            <h3>Description</h3>
+            <h4>Sonata</h4>
+            <h5>2023</h5>
+            <h5>1500000</h5>
+          </div>
+        </div>
+      `;
+    }
+  }
 }
 
+
+
 function onChangeCompany() {
-    model.innerHTML = "";
-    for (var key in cars[company.value]) {
-        model.innerHTML += `
+  model.innerHTML = "";
+  for (var key in cars[company.value]) {
+    model.innerHTML += `
             <option value="${key}">${key.toUpperCase()}</options>
         `;
 
-    }
+  }
 }
 
