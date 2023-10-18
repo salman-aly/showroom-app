@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .main-container {
-    width: 1280px;
+    width: 1260px;
     margin: 0 auto;
 }
 
@@ -33,9 +36,9 @@ li a {
     text-decoration: none;
 }
 
-.slider {
+/* .slider {
     width: 1280px;
-}
+} */
 
 .slider>img {
     width: 100%;
@@ -90,7 +93,6 @@ li a {
 
 .search {
     height: 280px;
-    width: 1280px;
     background-image: url("images/fuel-speedometer-car.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -166,9 +168,9 @@ li a {
 .inventorys {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 20px;
-    width: 100%;
+    /* width: 100%; */
     gap: 15px;
 }
 
@@ -176,7 +178,12 @@ li a {
     width: 250px;
     border: 1px solid #002D2D;
     padding: 10px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
+}
+
+.row img{
+    object-fit: contain;
+    width: 100%;
 }
 
 .social {
