@@ -180,6 +180,9 @@ li a {
     padding: 10px;
     /* margin-left: 20px; */
 }
+.col{
+    text-align: center;
+}
 
 .row img{
     object-fit: contain;

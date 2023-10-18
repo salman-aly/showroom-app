@@ -233,7 +233,6 @@ for (var key in cars) {
           </div>
         </div>
       `;
-    console.log(cars[key][key1].images);
   }
 }
 
