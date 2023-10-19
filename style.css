@@ -176,15 +176,18 @@ li a {
 
 .row {
     width: 250px;
-    border: 1px solid #002D2D;
     padding: 10px;
-    /* margin-left: 20px; */
+    border-radius: 3px;
+    box-shadow: 5px 7px 18px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 7px 18px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 7px 18px 0px rgba(0, 0, 0, 0.75);
 }
-.col{
+
+.col {
     text-align: center;
 }
 
-.row img{
+.row img {
     object-fit: contain;
     width: 100%;
 }
