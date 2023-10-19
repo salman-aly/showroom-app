@@ -242,34 +242,36 @@ for (var key in cars) {
 
 function onChangeCompany() {
   model.innerHTML = "";
+
   for (var key in cars[company.value]) {
     model.innerHTML += `
-            <option value="${key}">${key.toUpperCase()}</options>
-     `;
+      <option value="${key}">${key.toUpperCase()}</option>
+    `;
   }
 }
+
 
 function filtersCars() {
   var carData = cars[company.value][model.value];
-
   var selectedCompany = company.value;
-  var selectedBrand = model.value;
+  var selectedModel = model.value;
+  var allCars = document.getElementById('allCars'); // Make sure to select the right element.
 
-  if (selectedCompany && selectedBrand) {
+  if (selectedCompany && selectedModel) {
     allCars.innerHTML = `
-  <div class="row">
-    <div class="col">
-    <div><img src="${carData.images}"/></div>
-      <h3 class="heading">${carskey.name.toUpperCase() || "CarName"}</h3>
-      <h5>${carData.color}</h5>
-      <h5>${carData.price}</h5>
-      <h5>${carskey.door}</h5>
-      <h5>${carskey.engine}</h5>
-      <h5>${carskey.FuelTank}</h5
-      <h5>${carskey.MaxPower}</h5>
-      
-    </div>
-  </div>
-`;
+      <div class="row">
+        <div class="col">
+          <div><img src="${carData.images}" /></div>
+          <h3 class="heading">${carData.name.toUpperCase() || "CarName"}</h3>
+          <h5>${carData.color}</h5>
+          <h5>${carData.price}</h5>
+          <h5>${carData.door}</h5>
+          <h5>${carData.engine}</h5>
+          <h5>${carData.FuelTank}</h5>
+          <h5>${carData.MaxPower}</h5>
+        </div>
+      </div>
+    `;
   }
 }
+
