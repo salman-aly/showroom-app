@@ -176,16 +176,23 @@ li a {
 
 .row {
     width: 250px;
-    padding: 10px;
+    padding: 15px;
     border-radius: 3px;
     box-shadow: 5px 7px 18px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 5px 7px 18px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 5px 7px 18px 0px rgba(0, 0, 0, 0.75);
 }
+.row:hover{
+    background-color: azure;
+    /* transform: scale(1.1);
+    transition: 0.6s ease-in-out; */
+    box-shadow: 6px 8px 20px 3px rgba(0, 0, 0, 0.75);
+}
 
 .col {
     text-align: center;
     color: #DD9933;
+    font-weight: 400 !important;
 }
 
 .heading{
