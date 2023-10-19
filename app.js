@@ -260,8 +260,7 @@ function filtersCars() {
   <div class="row">
     <div class="col">
     <div><img src="${carData.images}"/></div>
-      <h3 class="heading">${carskey[key] || "CarName"}</h3>
-      <h4 class="heading"${carData.name || "unknown"}</h4>
+      <h3 class="heading">${carskey.name.toUpperCase() || "CarName"}</h3>
       <h5>${carData.color}</h5>
       <h5>${carData.price}</h5>
       <h5>${carskey.door}</h5>
