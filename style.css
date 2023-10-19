@@ -185,6 +185,11 @@ li a {
 
 .col {
     text-align: center;
+    color: #DD9933;
+}
+
+.heading{
+    color: #002D2D !important;
 }
 
 .row img {

@@ -226,10 +226,14 @@ for (var key in cars) {
         <div class="row">
           <div class="col">
           <div><img src="${carskey.images}"/></div>
-            <h3>${key.toUpperCase()}</h3>
+            <h3 class="heading">${key.toUpperCase()}</h3>
             <h4>${carskey.name || "unknown"}</h4>
             <h5>${carskey.color}</h5>
             <h5>${carskey.price}</h5>
+            <h5>${carskey.door}</h5>
+            <h5>${carskey.engine}</h5>
+            <h5>${carskey.FuelTank}</h5>
+            <h5>${carskey.MaxPower}</h5>
           </div>
         </div>
       `;
@@ -256,10 +260,15 @@ function filtersCars() {
   <div class="row">
     <div class="col">
     <div><img src="${carData.images}"/></div>
-      <h3>${carskey[key] || "CarName"}</h3>
-      <h4>${carData.name || "unknown"}</h4>
+      <h3 class="heading">${carskey[key] || "CarName"}</h3>
+      <h4 class="heading"${carData.name || "unknown"}</h4>
       <h5>${carData.color}</h5>
       <h5>${carData.price}</h5>
+      <h5>${carskey.door}</h5>
+      <h5>${carskey.engine}</h5>
+      <h5>${carskey.FuelTank}</h5
+      <h5>${carskey.MaxPower}</h5>
+      
     </div>
   </div>
 `;
