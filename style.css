@@ -196,7 +196,7 @@ li a {
     font-weight: 200 !important;
     text-align: center;
     color: #DD9933;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid #002D2D;
 }
 .col h3,h4,h5{
     border-bottom: 1px solid lightgray;
