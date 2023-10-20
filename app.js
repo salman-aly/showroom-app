@@ -225,7 +225,7 @@ for (var key in cars) {
     allCars.innerHTML += `
         <div class="row">
           <div class="col">
-          <div><img src="${carskey.images}"/></div>
+          <div><img class="grow" src="${carskey.images}"/></div>
             <h3 class="heading">${key.toUpperCase()}</h3>
             <h4>${carskey.name || "unknown"}</h4>
             <h5>${carskey.color}</h5>
@@ -261,7 +261,7 @@ function filtersCars() {
     allCars.innerHTML = `
       <div class="row">
         <div class="col">
-          <div><img src="${carData.images}" /></div>
+          <div><img class="grow" src="${carData.images}" /></div>
           <h3 class="heading">${carData.name.toUpperCase() || "CarName"}</h3>
           <h5>${carData.color}</h5>
           <h5>${carData.price}</h5>
@@ -279,6 +279,7 @@ function filtersCars() {
 Swal.fire({
   title: 'WELCOME',
   text: 'TO CAR DEALERSHIP SHOWROOM!',
-  imageUrl: 'images/WhatsApp_Image_2022-10-04_at_7.12.49_PM-removebg-preview-e1667165479595-1.png', 
+  imageUrl: 'images/gif.gif',
+  imageHeight: 250,
   imageAlt: 'Custom image',
 })
