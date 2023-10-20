@@ -181,13 +181,14 @@ li a {
 
 .row {
     width: 250px;
-    padding: 15px;
+    padding: 10px;
     border-radius: 3px;
     box-shadow: 5px 7px 18px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 5px 7px 18px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 5px 7px 18px 0px rgba(0, 0, 0, 0.75);
+    background-color: #002D2D;
+    padding: 10px;
 }
-
 .row2 {
     width: 600px;
     background-color: #002D2D;
@@ -217,6 +218,8 @@ li a {
     font-weight: 200 !important;
     text-align: center;
     color: #DD9933;
+    background-color: #fff;
+    border-radius: 3px;
 }
 
 .col h3,
@@ -246,7 +249,7 @@ h5 {
 
 .row img {
     object-fit: contain;
-    width: 100%;
+    width: 70%;
     height: 200px;
 }
 
