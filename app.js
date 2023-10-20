@@ -255,7 +255,7 @@ function filtersCars() {
   var carData = cars[company.value][model.value];
   var selectedCompany = company.value;
   var selectedModel = model.value;
-  var allCars = document.getElementById('allCars'); // Make sure to select the right element.
+  var allCars = document.getElementById('allCars');
 
   if (selectedCompany && selectedModel) {
     allCars.innerHTML = `
