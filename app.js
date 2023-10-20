@@ -259,9 +259,9 @@ function filtersCars() {
 
   if (selectedCompany && selectedModel) {
     allCars.innerHTML = `
-      <div class="row">
-        <div class="col">
-          <div><img class="grow" src="${carData.images}" /></div>
+      <div class="row row2">
+        <div class="col col2">
+          <div><img class="grow" src="${carData.images}" style="width:400px;height:300px;" /></div>
           <h3 class="heading">${carData.name.toUpperCase() || "CarName"}</h3>
           <h5>${carData.color}</h5>
           <h5>${carData.price}</h5>
