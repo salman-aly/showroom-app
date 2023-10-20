@@ -275,3 +275,10 @@ function filtersCars() {
   }
 }
 
+
+Swal.fire({
+  title: 'WELCOME',
+  text: 'TO CAR DEALERSHIP SHOWROOM!',
+  imageUrl: 'images/WhatsApp_Image_2022-10-04_at_7.12.49_PM-removebg-preview-e1667165479595-1.png',
+  imageAlt: 'Custom image',
+})
